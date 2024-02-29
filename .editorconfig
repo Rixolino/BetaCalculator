@@ -1,0 +1,7 @@
+﻿[*.vb]
+
+# BC40004: Il membro è in conflitto con il membro nel tipo di base, quindi deve essere dichiarato come 'Shadows'
+dotnet_diagnostic.BC40004.severity = none
+
+# IDE0002: Semplifica accesso membri
+dotnet_diagnostic.IDE0002.severity = none
