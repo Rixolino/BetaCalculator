@@ -9,25 +9,25 @@ Rebranded to BetaCalculator™ (now I'm working more on it).
 
 
 
-DOWNLOAD for Windows
-
-SOURCE CODE
-
-ONLINE (REPLIT)
-
-OLD VERSIONS
+<a href="https://mega.nz/file/czgi2R4A#47ySwip0w43LT8AV6vxlaocGPIv1i8_xBK3NedAY9Mg">ALTERNATIVE DOWNLOAD for Windows</a>
 
 
 We invented the FAST MENU to be quick to choose a calculation mode
 
+![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/cfcb39bc-4b24-4915-8ff7-6df9f5fb3d7d)
 
 IEEE P754
 
+![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/53c1e53b-81d5-4dc0-ab8a-c61b9383a0c7)
 
 HEXADECIMAL, BINARY, OCTAL, DECIMAL conversion
+
+![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/2a19cc3a-348e-4d68-bbb1-3d8a724bee95)
 
 
 MATH GRAPHICS
 
+
+![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/5905539b-58df-4f2d-9e96-bc2dca4a4249)
 
 SECOND DEGREE INEQUALITIES
