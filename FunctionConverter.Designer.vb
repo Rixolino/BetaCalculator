@@ -109,7 +109,7 @@ Partial Class FunctionConverter
         '
         'PictureBox7
         '
-        Me.PictureBox7.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_203321
+        Me.PictureBox7.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_203321
         Me.PictureBox7.Location = New System.Drawing.Point(915, 204)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(322, 127)
@@ -119,7 +119,7 @@ Partial Class FunctionConverter
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_203144
+        Me.PictureBox6.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_203144
         Me.PictureBox6.Location = New System.Drawing.Point(915, 68)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(322, 104)
@@ -129,7 +129,7 @@ Partial Class FunctionConverter
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_203005
+        Me.PictureBox5.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_203005
         Me.PictureBox5.Location = New System.Drawing.Point(319, 537)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(266, 127)
@@ -139,7 +139,7 @@ Partial Class FunctionConverter
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_202922
+        Me.PictureBox4.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_202922
         Me.PictureBox4.Location = New System.Drawing.Point(319, 390)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(266, 104)
@@ -149,7 +149,7 @@ Partial Class FunctionConverter
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_202837
+        Me.PictureBox3.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_202837
         Me.PictureBox3.Location = New System.Drawing.Point(319, 204)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(266, 127)
@@ -159,7 +159,7 @@ Partial Class FunctionConverter
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_30_202416
+        Me.PictureBox2.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_30_202416
         Me.PictureBox2.Location = New System.Drawing.Point(319, 45)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(266, 127)
@@ -169,7 +169,7 @@ Partial Class FunctionConverter
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BetaCloud_Calculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
         Me.PictureBox1.Location = New System.Drawing.Point(-1, -4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(58, 58)

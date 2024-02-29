@@ -40,7 +40,7 @@ Partial Class SimpleAlgebra
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_192705
+        Me.PictureBox5.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_192705
         Me.PictureBox5.Location = New System.Drawing.Point(501, 601)
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox5.Name = "PictureBox5"
@@ -51,7 +51,7 @@ Partial Class SimpleAlgebra
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_190909
+        Me.PictureBox4.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_190909
         Me.PictureBox4.Location = New System.Drawing.Point(914, 42)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox4.Name = "PictureBox4"
@@ -62,7 +62,7 @@ Partial Class SimpleAlgebra
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_190604
+        Me.PictureBox3.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_190604
         Me.PictureBox3.Location = New System.Drawing.Point(468, 42)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox3.Name = "PictureBox3"
@@ -73,7 +73,7 @@ Partial Class SimpleAlgebra
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BetaCloud_Calculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
         Me.PictureBox1.Location = New System.Drawing.Point(-4, 42)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
@@ -84,7 +84,7 @@ Partial Class SimpleAlgebra
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_190345
+        Me.PictureBox2.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_190345
         Me.PictureBox2.Location = New System.Drawing.Point(-4, 42)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox2.Name = "PictureBox2"

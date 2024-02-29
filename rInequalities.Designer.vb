@@ -150,7 +150,7 @@ Partial Class rInequalities
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BetaCloud_Calculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
         Me.PictureBox1.Location = New System.Drawing.Point(2, -3)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"

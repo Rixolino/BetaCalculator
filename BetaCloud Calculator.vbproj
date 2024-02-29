@@ -7,9 +7,9 @@
     <ProjectGuid>{4CA9236C-4379-413B-AB9F-9DCC63B3E75F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <VBRuntime>Default</VBRuntime>
-    <StartupObject>BetaCloud_Calculator.My.MyApplication</StartupObject>
-    <RootNamespace>BetaCloud_Calculator</RootNamespace>
-    <AssemblyName>BetaCloud Calculator</AssemblyName>
+    <StartupObject>BetaCalculator.My.MyApplication</StartupObject>
+    <RootNamespace>BetaCalculator</RootNamespace>
+    <AssemblyName>BetaCalculator</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -18,7 +18,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>C:\Users\SIMONE\Download\BetaCloud Calculator v.4.3\</PublishUrl>
+    <PublishUrl>C:\Users\SIMONE\Download\BetaCalculator v.4.4\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -33,7 +33,7 @@
     <PublisherName>BetaCloud Archive</PublisherName>
     <SuiteName>Apps</SuiteName>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>31</ApplicationRevision>
+    <ApplicationRevision>32</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -47,7 +47,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>BetaCloud Calculator.xml</DocumentationFile>
+    <DocumentationFile>BetaCalculator.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -57,7 +57,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>BetaCloud Calculator.xml</DocumentationFile>
+    <DocumentationFile>BetaCalculator.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,10 +73,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>E3B0F66893CD400968ED68E8A66BF4921B94E2E2</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>4A07426E1491FB5A0C467D8F86786EC61DADFB89</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>BetaCloud Calculator_3_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>BetaCloud Calculator_4_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -485,6 +485,7 @@
     <None Include="BetaCloud Calculator_1_TemporaryKey.pfx" />
     <None Include="BetaCloud Calculator_2_TemporaryKey.pfx" />
     <None Include="BetaCloud Calculator_3_TemporaryKey.pfx" />
+    <None Include="BetaCloud Calculator_4_TemporaryKey.pfx" />
     <None Include="BetaCloud Calculator_TemporaryKey.pfx" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">

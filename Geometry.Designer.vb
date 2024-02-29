@@ -36,7 +36,7 @@ Partial Class Geometry
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_192056
+        Me.PictureBox3.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_192056
         Me.PictureBox3.Location = New System.Drawing.Point(616, 52)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(642, 699)
@@ -46,7 +46,7 @@ Partial Class Geometry
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BetaCloud_Calculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.imagen_back_button_no_root_0thumb
         Me.PictureBox1.Location = New System.Drawing.Point(0, 40)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(39, 46)
@@ -56,7 +56,7 @@ Partial Class Geometry
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.BetaCloud_Calculator.My.Resources.Resources.Immagine_2021_11_29_192000
+        Me.PictureBox2.Image = Global.BetaCalculator.My.Resources.Resources.Immagine_2021_11_29_192000
         Me.PictureBox2.Location = New System.Drawing.Point(26, 52)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(651, 699)

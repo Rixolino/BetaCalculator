@@ -518,7 +518,7 @@ Partial Class sndequ
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BetaCloud_Calculator.My.Resources.Resources.betacloud_removebg_preview1
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.betacloud_removebg_preview1
         Me.PictureBox1.Location = New System.Drawing.Point(18, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(34, 33)
