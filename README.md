@@ -13,7 +13,8 @@ Rebranded to BetaCalculator™ (now I'm working more on it).
 We invented the FAST MENU to be quick to choose a calculation mode
 
 <p align="center">IEEE P754</p>
-![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/cffee0dc-a440-42ae-b9bd-f6ac8adf3f9c)
+[image](https://github.com/Rixolino/BetaCalculator/assets/71252421/ed529843-9055-4246-822d-1f20f47eca22)
+
 
 <p align="center">HEXADECIMAL, BINARY, OCTAL, DECIMAL conversion</p>
 ![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/c8968bc9-18f5-4896-8d54-bccb181c6214)
