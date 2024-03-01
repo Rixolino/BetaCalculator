@@ -1,7 +1,9 @@
-<h1>BetaCloud Calculator</h1>
+<h1>BetaCalculator</h1>
 
-**The Best and Open Source Calculator!**
-The BetaCloud® Calculator™ includes non-used calculator functions like linear equations with two or three unknowns, DEG RAD GRAD etc. and its UI got refreshed from light mode to dark and blue* mode
+**The Best and Open Source Calculator!**<br>
+The BetaCalculator™ (before as know as (before as know as BetaCloud® Calculator) includes non-used calculator functions like linear equations with two or three unknowns, DEG RAD GRAD etc. and its UI got refreshed from light mode to dark and blue* mode
+
+_*= it serves for avoiding to make eyes tired and/or confused_
 
 WHAT’S NEW? **(Version 4.4)**
 
