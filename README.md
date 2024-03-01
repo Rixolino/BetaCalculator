@@ -14,20 +14,16 @@ Rebranded to BetaCalculator™ (now I'm working more on it).
 
 We invented the FAST MENU to be quick to choose a calculation mode
 
+<p align="center">IEEE P754</p>
 ![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/cfcb39bc-4b24-4915-8ff7-6df9f5fb3d7d)
 
-IEEE P754
-
+<p align="center">HEXADECIMAL, BINARY, OCTAL, DECIMAL conversion</p>
 ![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/53c1e53b-81d5-4dc0-ab8a-c61b9383a0c7)
 
-HEXADECIMAL, BINARY, OCTAL, DECIMAL conversion
 
+<p align="center">MATH GRAPHICS</p>
 ![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/2a19cc3a-348e-4d68-bbb1-3d8a724bee95)
 
 
-MATH GRAPHICS
-
-
+<p align="center">SECOND DEGREE INEQUALITIES</p>
 ![image](https://github.com/Rixolino/BetaCalculator/assets/71252421/5905539b-58df-4f2d-9e96-bc2dca4a4249)
-
-SECOND DEGREE INEQUALITIES
