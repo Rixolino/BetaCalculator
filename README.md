@@ -45,5 +45,5 @@ Rebranded to BetaCalculator™ (now I'm working more on it).
 <p align="center"><b>SECOND DEGREE INEQUALITIES</b></p>
 
 <p align="center">
-  <img src="https://github.com/Rixolino/BetaCalculator/assets/71252421/1a088489-744b-49be-8fb1-84ba27276698"/>
+  <img src="https://github.com/Rixolino/BetaCalculator/assets/71252421/1a088489-744b-49be-8fb1-84ba27276698" width="50%"/>
 </p>
