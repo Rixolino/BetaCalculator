@@ -1,17 +1,25 @@
 <h1>BetaCalculator™</h1>
 
 **The Best and Open Source Calculator!**<br>
-The BetaCalculator™ (before as know as (before as know as BetaCloud® Calculator) includes non-used calculator functions like linear equations with two or three unknowns, DEG RAD GRAD etc. and its UI got refreshed from light mode to dark and blue* mode
+The BetaCalculator™ before as know as BetaCloud® Calculator includes non-used calculator functions like linear equations with two or three unknowns, DEG RAD GRAD etc.
 
 _*= it serves for avoiding to make eyes tired and/or confused_
 
-WHAT’S NEW? **(Version 4.4)**
+WHAT’S NEW? **(Version 5)**
 
-Rebranded to BetaCalculator™ (now I'm working more on it).
+- Customazible Calculator theme
+- Bug Fixes
 
-<a href="https://mega.nz/file/czgi2R4A#47ySwip0w43LT8AV6vxlaocGPIv1i8_xBK3NedAY9Mg">ALTERNATIVE DOWNLOAD for Windows</a>
+## THE NEW FEATURE
+<p align="center">
+ <img src=https://github.com/Rixolino/BetaCalculator/assets/71252421/4b7b7518-2685-4195-b7d8-e7719e741bdf width="50%" alt="Theme feature">
+ </p>
+
+<a href="https://mega.nz/file/ZqJzzYTC#JcWm6HrCjDNYVoftIFmQMhHlRsTIr7ITIJInww7cb4k">ALTERNATIVE DOWNLOAD for Windows</a>
 <br><br>
 
+
+## OTHER FEATURES
 <p align="center">We invented the FAST MENU to be quick to choose a calculation mode (click on the image in below)</p>
 
 
@@ -19,7 +27,7 @@ Rebranded to BetaCalculator™ (now I'm working more on it).
   <a href="https://youtu.be/NpLJbiroipk">
     <img src="https://github.com/Rixolino/BetaCalculator/assets/71252421/ed35dd7b-1e3c-43c3-8d76-ca1091f30d7c" alt="Video Thumbnail">
   </a>
-</p>
+
 <br><br>
 
 <p align="center"><b>IEEE P754</b></p>
