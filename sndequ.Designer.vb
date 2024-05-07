@@ -574,7 +574,7 @@ Partial Class sndequ
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "sndequ"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Second Degree Equations)"
+        Me.Text = "BetaCalculator (Second Degree Equations)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

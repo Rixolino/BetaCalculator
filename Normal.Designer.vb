@@ -264,7 +264,7 @@ Partial Class Normal
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.FastMenuToolStripMenuItem, Me.AboutToolStripMenuItem, Me.SettingsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(2, 49)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(327, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(329, 30)
         Me.MenuStrip1.TabIndex = 19
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -273,7 +273,7 @@ Partial Class Normal
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalActualToolStripMenuItem, Me.ScientificToolStripMenuItem, Me.ProgrammerToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalActualToolStripMenuItem
@@ -313,14 +313,14 @@ Partial Class Normal
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'SettingsToolStripMenuItem
@@ -328,7 +328,7 @@ Partial Class Normal
         Me.SettingsToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'minx
@@ -434,7 +434,7 @@ Partial Class Normal
         Me.MaximizeBox = False
         Me.Name = "Normal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator"
+        Me.Text = "BetaCalculator (Standard Calculator)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

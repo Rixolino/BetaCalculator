@@ -882,7 +882,7 @@ Partial Class Scientific
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.EquationsToolStripMenuItem, Me.ConversionToolStripMenuItem, Me.FunctionsToolStripMenuItem, Me.GraphicsToolStripMenuItem1, Me.FormulasToolStripMenuItem, Me.FastMenuToolStripMenuItem, Me.AboutToolStripMenuItem, Me.SettingsToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(9, 40)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(931, 28)
+        Me.MenuStrip2.Size = New System.Drawing.Size(933, 30)
         Me.MenuStrip2.TabIndex = 49
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -891,7 +891,7 @@ Partial Class Scientific
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalToolStripMenuItem, Me.ScientificActualToolStripMenuItem, Me.UnitOfMeasureToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalToolStripMenuItem
@@ -932,7 +932,7 @@ Partial Class Scientific
         Me.EquationsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LinearEquationsToolStripMenuItem, Me.DegreeEquationsToolStripMenuItem, Me.DisequationsToolStripMenuItem})
         Me.EquationsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.EquationsToolStripMenuItem.Name = "EquationsToolStripMenuItem"
-        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(197, 24)
+        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(197, 26)
         Me.EquationsToolStripMenuItem.Text = "Equations and Inequalities"
         '
         'LinearEquationsToolStripMenuItem
@@ -1007,7 +1007,7 @@ Partial Class Scientific
         Me.ConversionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LenghtToolStripMenuItem})
         Me.ConversionToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ConversionToolStripMenuItem.Name = "ConversionToolStripMenuItem"
-        Me.ConversionToolStripMenuItem.Size = New System.Drawing.Size(108, 24)
+        Me.ConversionToolStripMenuItem.Size = New System.Drawing.Size(108, 26)
         Me.ConversionToolStripMenuItem.Text = "Equivalences"
         '
         'LenghtToolStripMenuItem
@@ -1423,7 +1423,7 @@ Partial Class Scientific
         Me.FunctionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DEGToolStripMenuItem, Me.RADGRADToolStripMenuItem, Me.RADToolStripMenuItem, Me.DEGGRADToolStripMenuItem, Me.INVToolStripMenuItem, Me.GRADToolStripMenuItem})
         Me.FunctionsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FunctionsToolStripMenuItem.Name = "FunctionsToolStripMenuItem"
-        Me.FunctionsToolStripMenuItem.Size = New System.Drawing.Size(136, 24)
+        Me.FunctionsToolStripMenuItem.Size = New System.Drawing.Size(136, 26)
         Me.FunctionsToolStripMenuItem.Text = "RAD, GRAD, DEG"
         '
         'DEGToolStripMenuItem
@@ -1478,35 +1478,35 @@ Partial Class Scientific
         '
         Me.GraphicsToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.Control
         Me.GraphicsToolStripMenuItem1.Name = "GraphicsToolStripMenuItem1"
-        Me.GraphicsToolStripMenuItem1.Size = New System.Drawing.Size(80, 24)
+        Me.GraphicsToolStripMenuItem1.Size = New System.Drawing.Size(80, 26)
         Me.GraphicsToolStripMenuItem1.Text = "Graphics"
         '
         'FormulasToolStripMenuItem
         '
         Me.FormulasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FormulasToolStripMenuItem.Name = "FormulasToolStripMenuItem"
-        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
+        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 26)
         Me.FormulasToolStripMenuItem.Text = "Formulas"
         '
         'FastMenuToolStripMenuItem
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'SettingsToolStripMenuItem
         '
         Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'Minimizea
@@ -1677,7 +1677,7 @@ Partial Class Scientific
         Me.MaximizeBox = False
         Me.Name = "Scientific"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Scientific)"
+        Me.Text = "BetaCalculator (Scientific Calculator)"
         Me.MenuStrip2.ResumeLayout(False)
         Me.MenuStrip2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

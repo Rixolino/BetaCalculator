@@ -5,7 +5,6 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Circumference.Close()
         FloatingPoint1.Close()
         BinaryOp.Close()
         DEmore.Close()
@@ -27,7 +26,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -49,7 +48,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -71,7 +70,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -93,7 +92,7 @@
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -115,7 +114,7 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -137,7 +136,7 @@
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -159,7 +158,7 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -181,7 +180,7 @@
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Show()
@@ -262,7 +261,7 @@
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        Circumference.Close()
+
         FloatingPoint1.Close()
         Math_Graphics.Show()
         BinaryOp.Close()
@@ -284,7 +283,7 @@
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        Circumference.Close()
+
         FloatingPoint1.Show()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -305,12 +304,12 @@
         Normal.Hide()
     End Sub
 
-    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+    Private Sub Button15_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
-        Circumference.Show()
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
+
         FloatingPoint1.Close()
         Math_Graphics.Close()
         BinaryOp.Close()
@@ -329,9 +328,5 @@
         sndequ.Close()
         TEmore.Close()
         Normal.Hide()
-    End Sub
-
-    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        GeometryC.Show()
     End Sub
 End Class

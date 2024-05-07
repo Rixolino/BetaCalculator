@@ -40,14 +40,16 @@ Partial Class fstequ
         Me.CalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NormalActualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ScientificToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProgrammerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FastMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.a1 = New System.Windows.Forms.TextBox()
         Me.a2 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ProgrammerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FastMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'a
@@ -140,7 +142,7 @@ Partial Class fstequ
         Me.title.AutoSize = True
         Me.title.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.title.ForeColor = System.Drawing.SystemColors.Control
-        Me.title.Location = New System.Drawing.Point(21, 9)
+        Me.title.Location = New System.Drawing.Point(52, 9)
         Me.title.Name = "title"
         Me.title.Size = New System.Drawing.Size(194, 22)
         Me.title.TabIndex = 132
@@ -197,7 +199,7 @@ Partial Class fstequ
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.FastMenuToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(25, 43)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(401, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(251, 28)
         Me.MenuStrip1.TabIndex = 138
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -214,7 +216,7 @@ Partial Class fstequ
         Me.NormalActualToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.NormalActualToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.NormalActualToolStripMenuItem.Name = "NormalActualToolStripMenuItem"
-        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
         Me.NormalActualToolStripMenuItem.Text = "Standard"
         '
         'ScientificToolStripMenuItem
@@ -222,8 +224,23 @@ Partial Class fstequ
         Me.ScientificToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.ScientificToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ScientificToolStripMenuItem.Name = "ScientificToolStripMenuItem"
-        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
         Me.ScientificToolStripMenuItem.Text = "Scientific"
+        '
+        'ProgrammerToolStripMenuItem
+        '
+        Me.ProgrammerToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
+        Me.ProgrammerToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
+        Me.ProgrammerToolStripMenuItem.Name = "ProgrammerToolStripMenuItem"
+        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.ProgrammerToolStripMenuItem.Text = "Programmer"
+        '
+        'FastMenuToolStripMenuItem
+        '
+        Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
+        Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
         '
@@ -276,20 +293,15 @@ Partial Class fstequ
         Me.Label6.TabIndex = 142
         Me.Label6.Text = "____________"
         '
-        'ProgrammerToolStripMenuItem
+        'PictureBox1
         '
-        Me.ProgrammerToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
-        Me.ProgrammerToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
-        Me.ProgrammerToolStripMenuItem.Name = "ProgrammerToolStripMenuItem"
-        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.ProgrammerToolStripMenuItem.Text = "Programmer"
-        '
-        'FastMenuToolStripMenuItem
-        '
-        Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
-        Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
-        Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.betacloud_removebg_preview1
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 2)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(34, 33)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 143
+        Me.PictureBox1.TabStop = False
         '
         'fstequ
         '
@@ -297,6 +309,7 @@ Partial Class fstequ
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlText
         Me.ClientSize = New System.Drawing.Size(1005, 572)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.a2)
         Me.Controls.Add(Me.a1)
         Me.Controls.Add(Me.Label6)
@@ -320,9 +333,10 @@ Partial Class fstequ
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "fstequ"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (1st Degree Equations)"
+        Me.Text = "BetaCalculator (1st Degree Equations)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -352,4 +366,5 @@ Partial Class fstequ
     Friend WithEvents Label6 As Label
     Friend WithEvents ProgrammerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FastMenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

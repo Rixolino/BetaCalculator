@@ -56,12 +56,12 @@ Partial Class Linearequations
         Me.FormulasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FastMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Closea = New System.Windows.Forms.Label()
         Me.Minimizea = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -305,7 +305,7 @@ Partial Class Linearequations
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.EquationsToolStripMenuItem, Me.FormulasToolStripMenuItem, Me.FastMenuToolStripMenuItem, Me.AboutToolStripMenuItem, Me.SettingsToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(9, 33)
         Me.MenuStrip2.Name = "MenuStrip2"
-        Me.MenuStrip2.Size = New System.Drawing.Size(498, 28)
+        Me.MenuStrip2.Size = New System.Drawing.Size(500, 30)
         Me.MenuStrip2.TabIndex = 50
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -315,7 +315,7 @@ Partial Class Linearequations
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalToolStripMenuItem, Me.ScientificActualToolStripMenuItem, Me.UnitOfMeasureToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalToolStripMenuItem
@@ -357,7 +357,7 @@ Partial Class Linearequations
         Me.EquationsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LinearEquationsToolStripMenuItem})
         Me.EquationsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.EquationsToolStripMenuItem.Name = "EquationsToolStripMenuItem"
-        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(88, 24)
+        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(88, 26)
         Me.EquationsToolStripMenuItem.Text = "Equations"
         '
         'LinearEquationsToolStripMenuItem
@@ -390,14 +390,14 @@ Partial Class Linearequations
         Me.FormulasToolStripMenuItem.BackColor = System.Drawing.SystemColors.Desktop
         Me.FormulasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FormulasToolStripMenuItem.Name = "FormulasToolStripMenuItem"
-        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
+        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 26)
         Me.FormulasToolStripMenuItem.Text = "Formulas"
         '
         'FastMenuToolStripMenuItem
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
@@ -405,8 +405,15 @@ Partial Class Linearequations
         Me.AboutToolStripMenuItem.BackColor = System.Drawing.SystemColors.Desktop
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'SettingsToolStripMenuItem
+        '
+        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
+        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
+        Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'Closea
         '
@@ -463,13 +470,6 @@ Partial Class Linearequations
         Me.Label12.TabIndex = 134
         Me.Label12.Text = "{"
         '
-        'SettingsToolStripMenuItem
-        '
-        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
-        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
-        Me.SettingsToolStripMenuItem.Text = "Settings"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.betacloud_removebg_preview1
@@ -519,7 +519,7 @@ Partial Class Linearequations
         Me.MaximizeBox = False
         Me.Name = "Linearequations"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Linear Equations)"
+        Me.Text = "BetaCalculator (Linear Equations)"
         Me.MenuStrip2.ResumeLayout(False)
         Me.MenuStrip2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

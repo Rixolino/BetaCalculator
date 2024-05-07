@@ -122,7 +122,7 @@ Partial Class Formulas
         Me.MaximizeBox = False
         Me.Name = "Formulas"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Formulas)"
+        Me.Text = "BetaCalculator (Formulas)"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

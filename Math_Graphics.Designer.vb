@@ -175,7 +175,7 @@ Partial Class Math_Graphics
         Me.NormalActualToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.NormalActualToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.NormalActualToolStripMenuItem.Name = "NormalActualToolStripMenuItem"
-        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
         Me.NormalActualToolStripMenuItem.Text = "Standard"
         '
         'ScientificToolStripMenuItem
@@ -183,7 +183,7 @@ Partial Class Math_Graphics
         Me.ScientificToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.ScientificToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ScientificToolStripMenuItem.Name = "ScientificToolStripMenuItem"
-        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
         Me.ScientificToolStripMenuItem.Text = "Scientific"
         '
         'ProgrammerToolStripMenuItem
@@ -192,7 +192,7 @@ Partial Class Math_Graphics
         Me.ProgrammerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BinaryAdditionToolStripMenuItem})
         Me.ProgrammerToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ProgrammerToolStripMenuItem.Name = "ProgrammerToolStripMenuItem"
-        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
         Me.ProgrammerToolStripMenuItem.Text = "Programmer"
         '
         'BinaryAdditionToolStripMenuItem
@@ -245,7 +245,7 @@ Partial Class Math_Graphics
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Math_Graphics"
-        Me.Text = "BetaCloud Calculator (Graphics)"
+        Me.Text = "BetaCalculator (Graphics)"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

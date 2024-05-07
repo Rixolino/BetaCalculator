@@ -39,6 +39,7 @@ Partial Class Programmer
         Me.BinaryAdditionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FastMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.BinToDec = New System.Windows.Forms.CheckBox()
         Me.DecToBin = New System.Windows.Forms.CheckBox()
@@ -78,7 +79,6 @@ Partial Class Programmer
         Me.CA1andCA2result = New System.Windows.Forms.Label()
         Me.ButtonMinus = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -246,6 +246,13 @@ Partial Class Programmer
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
         Me.AboutToolStripMenuItem.Text = "About"
         '
+        'SettingsToolStripMenuItem
+        '
+        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
+        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Text = "Settings"
+        '
         'TextBox2
         '
         Me.TextBox2.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -390,7 +397,7 @@ Partial Class Programmer
         Me.F2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.F2.AutoSize = True
         Me.F2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.F2.Location = New System.Drawing.Point(661, 160)
+        Me.F2.Location = New System.Drawing.Point(80, 173)
         Me.F2.Name = "F2"
         Me.F2.Size = New System.Drawing.Size(0, 22)
         Me.F2.TabIndex = 92
@@ -646,9 +653,9 @@ Partial Class Programmer
         Me.Pastes.Enabled = False
         Me.Pastes.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Pastes.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Pastes.Location = New System.Drawing.Point(41, 82)
+        Me.Pastes.Location = New System.Drawing.Point(665, 76)
         Me.Pastes.Name = "Pastes"
-        Me.Pastes.Size = New System.Drawing.Size(86, 45)
+        Me.Pastes.Size = New System.Drawing.Size(119, 33)
         Me.Pastes.TabIndex = 114
         Me.Pastes.Text = "Paste"
         Me.Pastes.UseVisualStyleBackColor = True
@@ -659,9 +666,9 @@ Partial Class Programmer
         Me.Copies.Enabled = False
         Me.Copies.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Copies.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Copies.Location = New System.Drawing.Point(41, 171)
+        Me.Copies.Location = New System.Drawing.Point(665, 182)
         Me.Copies.Name = "Copies"
-        Me.Copies.Size = New System.Drawing.Size(86, 47)
+        Me.Copies.Size = New System.Drawing.Size(119, 36)
         Me.Copies.TabIndex = 115
         Me.Copies.Text = "Copy"
         Me.Copies.UseVisualStyleBackColor = True
@@ -705,19 +712,12 @@ Partial Class Programmer
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button1.Location = New System.Drawing.Point(603, 338)
+        Me.Button1.Location = New System.Drawing.Point(551, 347)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(172, 58)
+        Me.Button1.Size = New System.Drawing.Size(224, 49)
         Me.Button1.TabIndex = 119
         Me.Button1.Text = "Floating Point"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'SettingsToolStripMenuItem
-        '
-        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
-        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
-        Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'PictureBox1
         '
@@ -789,7 +789,7 @@ Partial Class Programmer
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Programmer"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Programmer)"
+        Me.Text = "BetaCalculator (Programmer)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

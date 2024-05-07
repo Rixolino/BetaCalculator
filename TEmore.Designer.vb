@@ -67,7 +67,7 @@ Partial Class TEmore
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(559, 24)
+        Me.Label1.Size = New System.Drawing.Size(535, 22)
         Me.Label1.TabIndex = 59
         Me.Label1.Text = "Linear equations with three unknows results with more information"
         '
@@ -266,7 +266,8 @@ Partial Class TEmore
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "TEmore"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "TEmore"
+        Me.Text = "BetaCalculator - Linear equations with three unknows results with more informatio" &
+    "n"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

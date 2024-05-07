@@ -34,6 +34,7 @@ Partial Class BinaryOp
         Me.BinaryAdditionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FastMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -51,7 +52,6 @@ Partial Class BinaryOp
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.op = New System.Windows.Forms.TextBox()
-        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -155,6 +155,13 @@ Partial Class BinaryOp
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'SettingsToolStripMenuItem
+        '
+        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
+        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'TextBox2
         '
@@ -354,13 +361,6 @@ Partial Class BinaryOp
         Me.op.TabIndex = 208
         Me.op.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'SettingsToolStripMenuItem
-        '
-        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
-        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
-        Me.SettingsToolStripMenuItem.Text = "Settings"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.betacloud_removebg_preview1
@@ -404,7 +404,7 @@ Partial Class BinaryOp
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "BinaryOp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Addition convertitor to binary numbers)"
+        Me.Text = "BetaCalculator (Addition convertitor to binary numbers)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

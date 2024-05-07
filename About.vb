@@ -41,6 +41,11 @@
 
     Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         My.Settings.Reload()
+        Me.ForeColor = My.Settings.TextColor
+        Me.BackColor = My.Settings.BackgroundColor
+        Label1.ForeColor = My.Settings.TextColor
+        Label2.ForeColor = My.Settings.TextColor
+
         ' Imposta la lingua iniziale
         Dim linguaSelezionata As String = System.Configuration.ConfigurationManager.AppSettings("Lingua")
         If linguaSelezionata = "English" Then
@@ -50,19 +55,24 @@
 BetaCalculator v4.4
 ~Don’t just stand there, look to the future and move on!~
 
+BetaCalculator™ is developed and distributed by BetaCloud Archive®.
+
+~Don’t just stand there, look to the future and move on!~
+
+BetaCloud Calculator v5
+
 © BetaCloud Archive 2020-2024.
 
 BetaRIXOLINO is the BetaCalculator™ developer.
 
 What's new:
-- Rebranded name
-- Added IEEE P745
-- Added Language Settings"
+- Allowing to user customizing the calculator
+- Bug fixes."
 
         Else
             Label2.Text = "BetaCalculator™ è sviluppato e distribuito da BetaCloud Archive®.
 
-BetaCalculator v4.4
+BetaCalculator v5
 
 ~Non stare lì impalato, guarda al futuro e vai oltre!~
 © BetaCloud Archive 2020-2024.
@@ -70,9 +80,9 @@ BetaCalculator v4.4
 BetaRIXOLINO (Simone Risola) è lo sviluppatore di questa calcolatrice.
 
 Novità:
-- Rebrand del programma
-- Aggiunto lo standard IEEE P754
-- Aggiunte le impostazioni per la lingua"
+- La presente applicazione ora offre la possibilità di personalizzare 
+le impostazioni della calcolatrice.
+- Risoluzioni di eventuali bug."
 
         End If
     End Sub

@@ -387,7 +387,7 @@ Partial Class Inequalities
         Me.MenuStrip1.Location = New System.Drawing.Point(16, 33)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(384, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(384, 30)
         Me.MenuStrip1.TabIndex = 245
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -396,7 +396,7 @@ Partial Class Inequalities
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalActualToolStripMenuItem, Me.ScientificToolStripMenuItem, Me.ProgramerToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalActualToolStripMenuItem
@@ -436,14 +436,14 @@ Partial Class Inequalities
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'FastMenuToolStripMenuItem
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'RulesToolStripMenuItem
@@ -451,14 +451,14 @@ Partial Class Inequalities
         Me.RulesToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.RulesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.RulesToolStripMenuItem.Name = "RulesToolStripMenuItem"
-        Me.RulesToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.RulesToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
         Me.RulesToolStripMenuItem.Text = "Rules"
         '
         'SettingsToolStripMenuItem
         '
         Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'title
@@ -668,7 +668,7 @@ Partial Class Inequalities
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Inequalities"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator (Inequalities)"
+        Me.Text = "BetaCalculator (Inequalities)"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

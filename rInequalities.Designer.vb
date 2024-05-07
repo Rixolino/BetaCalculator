@@ -185,7 +185,7 @@ Partial Class rInequalities
         Me.MinimizeBox = False
         Me.Name = "rInequalities"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "BetaCloud Calculator - Second degree inequalities rules"
+        Me.Text = "BetaCalculator - Second degree inequalities rules"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

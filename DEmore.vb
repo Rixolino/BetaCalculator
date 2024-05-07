@@ -57,6 +57,10 @@
         MsgBox("(" & Linearequations.x1.Text & "*" & Linearequations.d2.Text & ") - (" & Linearequations.x2.Text & " * " & Linearequations.d1.Text & " ) / (" & Linearequations.x1.Text & "*" & Linearequations.y2.Text & ") - (" & Linearequations.x2.Text & " * " & Linearequations.y1.Text & ")")
     End Sub
 
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
     Private Sub Closea_Click(sender As Object, e As EventArgs) Handles Closea.Click
         Me.Close()
     End Sub

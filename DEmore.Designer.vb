@@ -169,7 +169,7 @@ Partial Class DEmore
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(545, 24)
+        Me.Label1.Size = New System.Drawing.Size(522, 22)
         Me.Label1.TabIndex = 144
         Me.Label1.Text = "Linear equations with two unknows results with more information"
         '
@@ -283,7 +283,7 @@ Partial Class DEmore
         Me.Name = "DEmore"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "DEmore"
+        Me.Text = "BetaCalculator - Linear equations with two unknows results with more information"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
