@@ -3,8 +3,6 @@
 **The Best and Open Source Calculator!**<br>
 The BetaCalculator™ before as know as BetaCloud® Calculator includes non-used calculator functions like linear equations with two or three unknowns, DEG RAD GRAD etc.
 
-_*= it serves for avoiding to make eyes tired and/or confused_
-
 WHAT’S NEW? **(Version 5.1)**
 - Bug & Coloring Fixes
 
