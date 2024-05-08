@@ -5,10 +5,8 @@ The BetaCalculator™ before as know as BetaCloud® Calculator includes non-used
 
 _*= it serves for avoiding to make eyes tired and/or confused_
 
-WHAT’S NEW? **(Version 5)**
-
-- Customazible Calculator theme
-- Bug Fixes
+WHAT’S NEW? **(Version 5.1)**
+- Bug & Coloring Fixes
 
 ## THE NEW FEATURE
 <p align="center">
