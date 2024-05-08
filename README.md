@@ -13,7 +13,7 @@ WHAT’S NEW? **(Version 5.1)**
  <img src=https://github.com/Rixolino/BetaCalculator/assets/71252421/4b7b7518-2685-4195-b7d8-e7719e741bdf width="50%" alt="Theme feature">
  </p>
 
-<a href="https://mega.nz/file/ZqJzzYTC#JcWm6HrCjDNYVoftIFmQMhHlRsTIr7ITIJInww7cb4k">ALTERNATIVE DOWNLOAD for Windows</a>
+<a href="https://mega.nz/file/1v4lxKDJ#VTaSh2ZucZDSkjHQzs8B7XThQjveFE3vZR2HLWrJlxk">ALTERNATIVE DOWNLOAD for Windows</a>
 <br><br>
 
 
