@@ -93,6 +93,12 @@ Public Class Normal
 
 
     Private Sub Normal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If FastMenu.Visible Then
+            FastMenuToolStripMenuItem.Text = "Fast Menu (Close)"
+        Else
+            FastMenuToolStripMenuItem.Text = "Fast Menu"
+        End If
+        Me.AutoScaleMode = AutoScaleMode.Dpi
         Me.MaximumSize = Screen.FromRectangle(Me.Bounds).WorkingArea.Size
         ApplyMenuColors(MenuStrip1)
 
@@ -283,9 +289,7 @@ Public Class Normal
 
     End Sub
 
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        Application.Exit()
-    End Sub
+
     Private Sub Closea_Click(sender As Object, e As EventArgs) Handles Closea.Click
         Application.Exit()
     End Sub
@@ -317,13 +321,7 @@ Public Class Normal
     End Sub
 
     Private Sub FastMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FastMenuToolStripMenuItem.Click
-        If FastMenu.Visible Then
-            FastMenu.Hide()
-            FastMenuToolStripMenuItem.Text = "Fast Menu"
-        Else
-            FastMenu.Show()
-            FastMenuToolStripMenuItem.Text = "Fast Menu (Close)"
-        End If
+        FastMenu.Show()
     End Sub
 
     Private Sub FastMenuToolStripMenuItem_MouseUp(sender As Object, e As MouseEventArgs) Handles FastMenuToolStripMenuItem.DoubleClick

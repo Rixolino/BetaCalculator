@@ -122,6 +122,7 @@
 
     Private Sub Inequalities_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ApplyMenuColors(MenuStrip1)
+        title.ForeColor = My.Settings.TextColor
         Me.ForeColor = My.Settings.TextColor
         Me.BackColor = My.Settings.BackgroundColor
         Me.MaximumSize = Screen.FromRectangle(Me.Bounds).WorkingArea.Size
@@ -386,13 +387,7 @@
     End Sub
 
     Private Sub FastMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FastMenuToolStripMenuItem.Click
-        If FastMenu.Visible Then
-            FastMenu.Hide()
-            FastMenuToolStripMenuItem.Text = "Fast Menu"
-        Else
-            FastMenu.Show()
-            FastMenuToolStripMenuItem.Text = "Fast Menu (Close)"
-        End If
+        FastMenu.Show()
     End Sub
 
     Private Sub SettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SettingsToolStripMenuItem.Click

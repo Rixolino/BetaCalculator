@@ -264,7 +264,7 @@ Partial Class Normal
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculatorToolStripMenuItem, Me.FastMenuToolStripMenuItem, Me.AboutToolStripMenuItem, Me.SettingsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(2, 49)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(329, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(327, 28)
         Me.MenuStrip1.TabIndex = 19
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -273,7 +273,7 @@ Partial Class Normal
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalActualToolStripMenuItem, Me.ScientificToolStripMenuItem, Me.ProgrammerToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalActualToolStripMenuItem
@@ -281,7 +281,7 @@ Partial Class Normal
         Me.NormalActualToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.NormalActualToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.NormalActualToolStripMenuItem.Name = "NormalActualToolStripMenuItem"
-        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(208, 26)
+        Me.NormalActualToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.NormalActualToolStripMenuItem.Text = "Standard (Actual)"
         '
         'ScientificToolStripMenuItem
@@ -289,7 +289,7 @@ Partial Class Normal
         Me.ScientificToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.ScientificToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ScientificToolStripMenuItem.Name = "ScientificToolStripMenuItem"
-        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(208, 26)
+        Me.ScientificToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ScientificToolStripMenuItem.Text = "Scientific"
         '
         'ProgrammerToolStripMenuItem
@@ -298,7 +298,7 @@ Partial Class Normal
         Me.ProgrammerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BinaryAdditionToolStripMenuItem})
         Me.ProgrammerToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.ProgrammerToolStripMenuItem.Name = "ProgrammerToolStripMenuItem"
-        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(208, 26)
+        Me.ProgrammerToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ProgrammerToolStripMenuItem.Text = "Programmer"
         '
         'BinaryAdditionToolStripMenuItem
@@ -313,14 +313,14 @@ Partial Class Normal
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'SettingsToolStripMenuItem
@@ -328,7 +328,7 @@ Partial Class Normal
         Me.SettingsToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText
         Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'minx

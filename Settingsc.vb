@@ -15,9 +15,11 @@ Public Class Settingsc
         ' Aggiunge i controlli per la selezione della lingua
         Dim lblLingua As New Label()
         If linguaSelezionata = "English" Then
+            Me.Text = "Settings - Language"
             lblLingua.Text = "Language:"
         ElseIf linguaSelezionata = "Italian" Then
             lblLingua.Text = "Lingua:"
+            Me.Text = "Impostazioni - Lingua"
         End If
 
         lblLingua.Top = 10
@@ -75,6 +77,12 @@ Public Class Settingsc
 
     Private Sub DisplayStartupSettings()
         Panel1.Controls.Clear() ' Rimuove i controlli esistenti da Panel1
+        Dim linguaSelezionata As String = System.Configuration.ConfigurationManager.AppSettings("Lingua")
+        If linguaSelezionata = "English" Then
+            Me.Text = "Settings - Startup"
+        ElseIf linguaSelezionata = "Italian" Then
+            Me.Text = "Impostazioni - Avvio"
+        End If
 
         ' Aggiunge i controlli per le impostazioni di avvio
         Dim lblAvvio As New Label()
@@ -94,11 +102,11 @@ Public Class Settingsc
         btnSalva.Text = "Apply"
         btnSalva.Top = cbAvvio.Bottom + 10
         btnSalva.Left = 10
-        AddHandler btnSalva.Click, AddressOf SalvaImpostazioniAvvio
+        AddHandler btnSalva.Click, AddressOf SaveStartupSettings
         Panel1.Controls.Add(btnSalva)
     End Sub
 
-    Private Sub SalvaImpostazioniAvvio(sender As Object, e As EventArgs)
+    Private Sub SaveStartupSettings(sender As Object, e As EventArgs)
         Dim cbLStart As ComboBox = Panel1.Controls.OfType(Of ComboBox)().FirstOrDefault()
         If cbLStart IsNot Nothing Then
             Dim choosenStartup As String = cbLStart.SelectedItem.ToString()
@@ -122,6 +130,12 @@ Public Class Settingsc
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Panel1.Controls.Clear()
+        Dim linguaSelezionata As String = System.Configuration.ConfigurationManager.AppSettings("Lingua")
+        If linguaSelezionata = "English" Then
+            Me.Text = "Settings - Themes"
+        ElseIf linguaSelezionata = "Italian" Then
+            Me.Text = "Impostazioni - Tema"
+        End If
 
         ' Aggiunge il pulsante per selezionare il colore di sfondo
         Dim btnSelectBackColor As New Button()
@@ -284,6 +298,22 @@ Public Class Settingsc
 
     Private Sub Settingsc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Carica le impostazioni salvate quando il form viene caricato
+        Me.ForeColor = My.Settings.TextColor
+        Me.BackColor = My.Settings.BackgroundColor
+        Panel1.ForeColor = My.Settings.TextColor
+
+        Dim existingColor As Color = My.Settings.BackgroundColor
+
+
+        Dim newRed As Integer = Math.Max(existingColor.R - 30, 0)
+        Dim newGreen As Integer = Math.Max(existingColor.G - 30, 0)
+        Dim newBlue As Integer = Math.Max(existingColor.B - 30, 0)
+
+
+        Dim newColor As Color = Color.FromArgb(newRed, newGreen, newBlue)
+
+        Panel1.BackColor = newColor
+
         My.Settings.Reload()
 
         ' Applica le impostazioni della lingua

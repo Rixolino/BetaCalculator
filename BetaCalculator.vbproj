@@ -18,7 +18,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>C:\Users\SIMONE\Download\BetaCalculator v.4.4\</PublishUrl>
+    <PublishUrl>C:\Users\SIMONE\Download\BetaCalculator v.5\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -33,7 +33,7 @@
     <PublisherName>BetaCloud Archive</PublisherName>
     <SuiteName>Apps</SuiteName>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>34</ApplicationRevision>
+    <ApplicationRevision>40</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -65,7 +65,7 @@
     </WarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionExplicit>On</OptionExplicit>
+    <OptionExplicit>Off</OptionExplicit>
   </PropertyGroup>
   <PropertyGroup>
     <OptionCompare>Text</OptionCompare>

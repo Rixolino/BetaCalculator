@@ -43,26 +43,26 @@ Partial Class LinEquationTriple
         Me.Resultx = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.same1 = New System.Windows.Forms.Label()
+        Me.plus1 = New System.Windows.Forms.Label()
         Me.b3 = New System.Windows.Forms.TextBox()
         Me.b2 = New System.Windows.Forms.TextBox()
         Me.a1 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.same2 = New System.Windows.Forms.Label()
+        Me.plus2 = New System.Windows.Forms.Label()
         Me.a2 = New System.Windows.Forms.TextBox()
         Me.a3 = New System.Windows.Forms.TextBox()
         Me.c2 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.plus4 = New System.Windows.Forms.Label()
         Me.c3 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.plus3 = New System.Windows.Forms.Label()
         Me.d3 = New System.Windows.Forms.TextBox()
         Me.d1 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
+        Me.plus6 = New System.Windows.Forms.Label()
         Me.d2 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.plus5 = New System.Windows.Forms.Label()
         Me.c1 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.same3 = New System.Windows.Forms.Label()
         Me.b1 = New System.Windows.Forms.TextBox()
         Me.Resultz = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -81,7 +81,9 @@ Partial Class LinEquationTriple
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label22 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip2
@@ -93,7 +95,7 @@ Partial Class LinEquationTriple
         Me.MenuStrip2.Location = New System.Drawing.Point(15, 36)
         Me.MenuStrip2.Name = "MenuStrip2"
         Me.MenuStrip2.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip2.Size = New System.Drawing.Size(497, 28)
+        Me.MenuStrip2.Size = New System.Drawing.Size(497, 30)
         Me.MenuStrip2.TabIndex = 51
         Me.MenuStrip2.Text = "MenuStrip2"
         '
@@ -102,7 +104,7 @@ Partial Class LinEquationTriple
         Me.CalculatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalToolStripMenuItem, Me.ScientificActualToolStripMenuItem, Me.ProgrammerToolStripMenuItem})
         Me.CalculatorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 24)
+        Me.CalculatorToolStripMenuItem.Size = New System.Drawing.Size(90, 26)
         Me.CalculatorToolStripMenuItem.Text = "Calculator"
         '
         'NormalToolStripMenuItem
@@ -143,7 +145,7 @@ Partial Class LinEquationTriple
         Me.EquationsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LinearEquationsToolStripMenuItem})
         Me.EquationsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.EquationsToolStripMenuItem.Name = "EquationsToolStripMenuItem"
-        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(88, 24)
+        Me.EquationsToolStripMenuItem.Size = New System.Drawing.Size(88, 26)
         Me.EquationsToolStripMenuItem.Text = "Equations"
         '
         'LinearEquationsToolStripMenuItem
@@ -175,28 +177,28 @@ Partial Class LinEquationTriple
         '
         Me.FormulasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FormulasToolStripMenuItem.Name = "FormulasToolStripMenuItem"
-        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 24)
+        Me.FormulasToolStripMenuItem.Size = New System.Drawing.Size(83, 26)
         Me.FormulasToolStripMenuItem.Text = "Formulas"
         '
         'FastMenuToolStripMenuItem
         '
         Me.FastMenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.FastMenuToolStripMenuItem.Name = "FastMenuToolStripMenuItem"
-        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 24)
+        Me.FastMenuToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.FastMenuToolStripMenuItem.Text = "Fast Menu"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'SettingsToolStripMenuItem
         '
         Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 24)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(76, 26)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'Button2
@@ -275,29 +277,29 @@ Partial Class LinEquationTriple
         Me.Button1.Text = "CALCULATE"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label3
+        'same1
         '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label3.Location = New System.Drawing.Point(704, 138)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(24, 25)
-        Me.Label3.TabIndex = 61
-        Me.Label3.Text = "="
+        Me.same1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.same1.AutoSize = True
+        Me.same1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.same1.ForeColor = System.Drawing.SystemColors.Control
+        Me.same1.Location = New System.Drawing.Point(704, 138)
+        Me.same1.Name = "same1"
+        Me.same1.Size = New System.Drawing.Size(24, 25)
+        Me.same1.TabIndex = 61
+        Me.same1.Text = "="
         '
-        'Label1
+        'plus1
         '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(335, 138)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(24, 25)
-        Me.Label1.TabIndex = 59
-        Me.Label1.Text = "+"
+        Me.plus1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus1.AutoSize = True
+        Me.plus1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus1.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus1.Location = New System.Drawing.Point(335, 138)
+        Me.plus1.Name = "plus1"
+        Me.plus1.Size = New System.Drawing.Size(24, 25)
+        Me.plus1.TabIndex = 59
+        Me.plus1.Text = "+"
         '
         'b3
         '
@@ -338,29 +340,29 @@ Partial Class LinEquationTriple
         Me.a1.Size = New System.Drawing.Size(119, 46)
         Me.a1.TabIndex = 53
         '
-        'Label2
+        'same2
         '
-        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(704, 273)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(24, 25)
-        Me.Label2.TabIndex = 75
-        Me.Label2.Text = "="
+        Me.same2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.same2.AutoSize = True
+        Me.same2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.same2.ForeColor = System.Drawing.SystemColors.Control
+        Me.same2.Location = New System.Drawing.Point(704, 273)
+        Me.same2.Name = "same2"
+        Me.same2.Size = New System.Drawing.Size(24, 25)
+        Me.same2.TabIndex = 75
+        Me.same2.Text = "="
         '
-        'Label4
+        'plus2
         '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label4.Location = New System.Drawing.Point(521, 138)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(24, 25)
-        Me.Label4.TabIndex = 77
-        Me.Label4.Text = "+"
+        Me.plus2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus2.AutoSize = True
+        Me.plus2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus2.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus2.Location = New System.Drawing.Point(521, 138)
+        Me.plus2.Name = "plus2"
+        Me.plus2.Size = New System.Drawing.Size(24, 25)
+        Me.plus2.TabIndex = 77
+        Me.plus2.Text = "+"
         '
         'a2
         '
@@ -401,17 +403,17 @@ Partial Class LinEquationTriple
         Me.c2.Size = New System.Drawing.Size(119, 46)
         Me.c2.TabIndex = 96
         '
-        'Label7
+        'plus4
         '
-        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label7.Location = New System.Drawing.Point(521, 273)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(24, 25)
-        Me.Label7.TabIndex = 93
-        Me.Label7.Text = "+"
+        Me.plus4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus4.AutoSize = True
+        Me.plus4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus4.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus4.Location = New System.Drawing.Point(521, 273)
+        Me.plus4.Name = "plus4"
+        Me.plus4.Size = New System.Drawing.Size(24, 25)
+        Me.plus4.TabIndex = 93
+        Me.plus4.Text = "+"
         '
         'c3
         '
@@ -426,17 +428,17 @@ Partial Class LinEquationTriple
         Me.c3.Size = New System.Drawing.Size(119, 46)
         Me.c3.TabIndex = 92
         '
-        'Label8
+        'plus3
         '
-        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label8.Location = New System.Drawing.Point(335, 273)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(24, 25)
-        Me.Label8.TabIndex = 89
-        Me.Label8.Text = "+"
+        Me.plus3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus3.AutoSize = True
+        Me.plus3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus3.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus3.Location = New System.Drawing.Point(335, 273)
+        Me.plus3.Name = "plus3"
+        Me.plus3.Size = New System.Drawing.Size(24, 25)
+        Me.plus3.TabIndex = 89
+        Me.plus3.Text = "+"
         '
         'd3
         '
@@ -464,17 +466,17 @@ Partial Class LinEquationTriple
         Me.d1.Size = New System.Drawing.Size(151, 46)
         Me.d1.TabIndex = 105
         '
-        'Label13
+        'plus6
         '
-        Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label13.Location = New System.Drawing.Point(521, 379)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(24, 25)
-        Me.Label13.TabIndex = 104
-        Me.Label13.Text = "+"
+        Me.plus6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus6.AutoSize = True
+        Me.plus6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus6.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus6.Location = New System.Drawing.Point(521, 379)
+        Me.plus6.Name = "plus6"
+        Me.plus6.Size = New System.Drawing.Size(24, 25)
+        Me.plus6.TabIndex = 104
+        Me.plus6.Text = "+"
         '
         'd2
         '
@@ -489,17 +491,17 @@ Partial Class LinEquationTriple
         Me.d2.Size = New System.Drawing.Size(155, 46)
         Me.d2.TabIndex = 103
         '
-        'Label14
+        'plus5
         '
-        Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label14.Location = New System.Drawing.Point(335, 379)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(24, 25)
-        Me.Label14.TabIndex = 102
-        Me.Label14.Text = "+"
+        Me.plus5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.plus5.AutoSize = True
+        Me.plus5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.plus5.ForeColor = System.Drawing.SystemColors.Control
+        Me.plus5.Location = New System.Drawing.Point(335, 379)
+        Me.plus5.Name = "plus5"
+        Me.plus5.Size = New System.Drawing.Size(24, 25)
+        Me.plus5.TabIndex = 102
+        Me.plus5.Text = "+"
         '
         'c1
         '
@@ -514,17 +516,17 @@ Partial Class LinEquationTriple
         Me.c1.Size = New System.Drawing.Size(119, 46)
         Me.c1.TabIndex = 101
         '
-        'Label5
+        'same3
         '
-        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label5.Location = New System.Drawing.Point(704, 378)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(24, 25)
-        Me.Label5.TabIndex = 107
-        Me.Label5.Text = "="
+        Me.same3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.same3.AutoSize = True
+        Me.same3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.same3.ForeColor = System.Drawing.SystemColors.Control
+        Me.same3.Location = New System.Drawing.Point(704, 378)
+        Me.same3.Name = "same3"
+        Me.same3.Size = New System.Drawing.Size(24, 25)
+        Me.same3.TabIndex = 107
+        Me.same3.Text = "="
         '
         'b1
         '
@@ -744,21 +746,32 @@ Partial Class LinEquationTriple
         Me.Label22.TabIndex = 133
         Me.Label22.Text = "{"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.BetaCalculator.My.Resources.Resources.betacloud_removebg_preview1
+        Me.PictureBox1.Location = New System.Drawing.Point(17, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(34, 33)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 134
+        Me.PictureBox1.TabStop = False
+        '
         'LinEquationTriple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlText
         Me.ClientSize = New System.Drawing.Size(1196, 940)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Minimizea)
         Me.Controls.Add(Me.Closea)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.same3)
         Me.Controls.Add(Me.z3)
         Me.Controls.Add(Me.y3)
         Me.Controls.Add(Me.x3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.same2)
         Me.Controls.Add(Me.z2)
         Me.Controls.Add(Me.y2)
         Me.Controls.Add(Me.x2)
@@ -769,17 +782,17 @@ Partial Class LinEquationTriple
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.b1)
         Me.Controls.Add(Me.d1)
-        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.plus6)
         Me.Controls.Add(Me.d2)
-        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.plus5)
         Me.Controls.Add(Me.c1)
         Me.Controls.Add(Me.c2)
-        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.plus4)
         Me.Controls.Add(Me.c3)
-        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.plus3)
         Me.Controls.Add(Me.d3)
         Me.Controls.Add(Me.a3)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.plus2)
         Me.Controls.Add(Me.a2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Resulty)
@@ -788,8 +801,8 @@ Partial Class LinEquationTriple
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.same1)
+        Me.Controls.Add(Me.plus1)
         Me.Controls.Add(Me.b3)
         Me.Controls.Add(Me.b2)
         Me.Controls.Add(Me.a1)
@@ -805,6 +818,7 @@ Partial Class LinEquationTriple
         Me.Text = "BetaCalculator (Triple linear equations)"
         Me.MenuStrip2.ResumeLayout(False)
         Me.MenuStrip2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -826,26 +840,26 @@ Partial Class LinEquationTriple
     Friend WithEvents Resultx As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents same1 As Label
+    Friend WithEvents plus1 As Label
     Friend WithEvents b3 As TextBox
     Friend WithEvents b2 As TextBox
     Friend WithEvents a1 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents same2 As Label
+    Friend WithEvents plus2 As Label
     Friend WithEvents a2 As TextBox
     Friend WithEvents a3 As TextBox
     Friend WithEvents c2 As TextBox
-    Friend WithEvents Label7 As Label
+    Friend WithEvents plus4 As Label
     Friend WithEvents c3 As TextBox
-    Friend WithEvents Label8 As Label
+    Friend WithEvents plus3 As Label
     Friend WithEvents d3 As TextBox
     Friend WithEvents d1 As TextBox
-    Friend WithEvents Label13 As Label
+    Friend WithEvents plus6 As Label
     Friend WithEvents d2 As TextBox
-    Friend WithEvents Label14 As Label
+    Friend WithEvents plus5 As Label
     Friend WithEvents c1 As TextBox
-    Friend WithEvents Label5 As Label
+    Friend WithEvents same3 As Label
     Friend WithEvents b1 As TextBox
     Friend WithEvents Resultz As TextBox
     Friend WithEvents Label6 As Label
@@ -868,4 +882,5 @@ Partial Class LinEquationTriple
     Friend WithEvents BinaryAdditionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FastMenuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

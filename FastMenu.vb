@@ -200,9 +200,20 @@
         TEmore.Close()
         Normal.Hide()
     End Sub
+ 
 
     Private Sub FastMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         My.Settings.Reload()
+        Dim textColor As Color = My.Settings.TextColor
+        Dim backColor As Color = My.Settings.BackgroundColor
+        For Each btn As Button In Me.Controls.OfType(Of Button)()
+            btn.ForeColor = textColor
+            btn.FlatStyle = FlatStyle.System
+            btn.BackColor = backColor
+            btn.FlatAppearance.BorderColor = My.Settings.TextColor
+        Next
+        Me.ForeColor = My.Settings.TextColor
+        Me.BackColor = My.Settings.BackgroundColor
         ' Imposta la lingua iniziale
         Dim linguaSelezionata As String = System.Configuration.ConfigurationManager.AppSettings("Lingua")
         If linguaSelezionata = "English" Then

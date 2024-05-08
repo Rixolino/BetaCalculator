@@ -1,4 +1,6 @@
-﻿Public Class LinEquationTriple
+﻿Imports BetaCalculator.My
+
+Public Class LinEquationTriple
     Dim fract
     Dim Dxs
     Dim Dys
@@ -100,7 +102,7 @@
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        Application.Exit()
+
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -172,10 +174,6 @@
 
     End Sub
 
-    Private Sub Closea_Click(sender As Object, e As EventArgs) Handles Closea.Click
-        Application.Exit()
-    End Sub
-
     Private Sub Minimizea_Click(sender As Object, e As EventArgs) Handles Minimizea.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
@@ -231,6 +229,30 @@
 
     Private Sub LinEquationTriple_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ApplyMenuColors(MenuStrip2)
+        plus1.ForeColor = My.Settings.TextColor
+        plus2.ForeColor = My.Settings.TextColor
+        plus3.ForeColor = My.Settings.TextColor
+        plus4.ForeColor = My.Settings.TextColor
+        plus5.ForeColor = My.Settings.TextColor
+        plus6.ForeColor = My.Settings.TextColor
+        same1.ForeColor = My.Settings.TextColor
+        same2.ForeColor = My.Settings.TextColor
+        same3.ForeColor = My.Settings.TextColor
+        Closea.ForeColor = My.Settings.TextColor
+        Minimizea.ForeColor = My.Settings.TextColor
+        Label9.ForeColor = My.Settings.TextColor
+        Label10.ForeColor = My.Settings.TextColor
+        Label6.ForeColor = My.Settings.TextColor
+        Label22.ForeColor = My.Settings.TextColor
+        x1.ForeColor = My.Settings.TextColor
+        y1.ForeColor = My.Settings.TextColor
+        z1.ForeColor = My.Settings.TextColor
+        x2.ForeColor = My.Settings.TextColor
+        y2.ForeColor = My.Settings.TextColor
+        z2.ForeColor = My.Settings.TextColor
+        x3.ForeColor = My.Settings.TextColor
+        y3.ForeColor = My.Settings.TextColor
+        z3.ForeColor = My.Settings.TextColor
         Label11.ForeColor = My.Settings.TextColor
         Me.ForeColor = My.Settings.TextColor
         Me.BackColor = My.Settings.BackgroundColor
@@ -277,16 +299,14 @@
     End Sub
 
     Private Sub FastMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FastMenuToolStripMenuItem.Click
-        If FastMenu.Visible Then
-            FastMenu.Hide()
-            FastMenuToolStripMenuItem.Text = "Fast Menu"
-        Else
-            FastMenu.Show()
-            FastMenuToolStripMenuItem.Text = "Fast Menu (Close)"
-        End If
+        FastMenu.Show()
     End Sub
 
     Private Sub SettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SettingsToolStripMenuItem.Click
         Settingsc.Show()
+    End Sub
+
+    Private Sub Closea_Click(sender As Object, e As EventArgs) Handles Closea.Click
+        Environment.Exit(0)
     End Sub
 End Class

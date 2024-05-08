@@ -1016,13 +1016,7 @@
     End Sub
 
     Private Sub FastMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FastMenuToolStripMenuItem.Click
-        If FastMenu.Visible Then
-            FastMenu.Hide()
-            FastMenuToolStripMenuItem.Text = "Fast Menu"
-        Else
-            FastMenu.Show()
-            FastMenuToolStripMenuItem.Text = "Fast Menu (Close)"
-        End If
+        FastMenu.Show()
     End Sub
 
     Private Sub CA1_CA2_Click(sender As Object, e As EventArgs) Handles CA1_CA2.Click

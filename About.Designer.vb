@@ -47,9 +47,8 @@ Partial Class About
         Me.Label2.Location = New System.Drawing.Point(17, 88)
         Me.Label2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(519, 260)
+        Me.Label2.Size = New System.Drawing.Size(0, 20)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = resources.GetString("Label2.Text")
         '
         'Button1
         '

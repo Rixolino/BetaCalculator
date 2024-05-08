@@ -41,6 +41,7 @@
 
     Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         My.Settings.Reload()
+        Me.BackColor = My.Settings.BackgroundColor
         Me.ForeColor = My.Settings.TextColor
         Me.BackColor = My.Settings.BackgroundColor
         Label1.ForeColor = My.Settings.TextColor
@@ -59,20 +60,20 @@ BetaCalculator™ is developed and distributed by BetaCloud Archive®.
 
 ~Don’t just stand there, look to the future and move on!~
 
-BetaCloud Calculator v5
+BetaCalculator v5.1
 
 © BetaCloud Archive 2020-2024.
 
 BetaRIXOLINO is the BetaCalculator™ developer.
 
 What's new:
-- Allowing to user customizing the calculator
-- Bug fixes."
+- Coloring also Fast Menu and more coloring fixes
+- Various Bug fixes."
 
         Else
             Label2.Text = "BetaCalculator™ è sviluppato e distribuito da BetaCloud Archive®.
 
-BetaCalculator v5
+BetaCalculator v5.1
 
 ~Non stare lì impalato, guarda al futuro e vai oltre!~
 © BetaCloud Archive 2020-2024.
@@ -80,12 +81,12 @@ BetaCalculator v5
 BetaRIXOLINO (Simone Risola) è lo sviluppatore di questa calcolatrice.
 
 Novità:
-- La presente applicazione ora offre la possibilità di personalizzare 
-le impostazioni della calcolatrice.
+- Colorazione anche del menu veloce e altre correzioni di colorazione.
 - Risoluzioni di eventuali bug."
 
         End If
     End Sub
+
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
